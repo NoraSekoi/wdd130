@@ -1,10 +1,12 @@
 @import  url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&display=swap');
 body {
-    font-family: 'Lato';
+    font-family: Lato;
     max-width: 960px;
     padding: 20px;
 }
-
+head {
+    font-family: 'Madimi Salt';
+}
 :root {
     --primary-color: #4f126b;
     --secondary-color: #9e9cb6;
@@ -18,4 +20,7 @@ body {
     --nav-link-color: #000000;
     --nav-hover-link-color: #e5e5f9;
     --nav-hover-background-color: #9a0e0e;
+}
+footer {
+    font-family: Madimi 'Salt';
 }

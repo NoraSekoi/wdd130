@@ -5,6 +5,16 @@ body {
     padding: 20px;
 }
 :root {
-    --primary-color: #XXXXXX;
-    
+    --primary-color: #4f126b;
+    --secondary-color: #9e9cb6;
+    --accent1-color: #faf7f7;
+    --accent2-color: #f6efef;
+
+    --heading-font: 'Madidmi One', serif;
+    --paragraph-font: 'Lato', serif;
+
+    --nav-background-color: #b4b3f4;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #e5e5f9;
+    --nav-hover-background-color: #9a0e0e;
 }

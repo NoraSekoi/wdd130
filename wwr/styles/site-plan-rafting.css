@@ -4,6 +4,7 @@ body {
     font-family: Lato, Georgia, serif;
     max-width: 960px;
     padding: 20px;
+    line-height: 1.4;
     src: url(fonts/Lato.ttf);
 }
 head {
@@ -22,19 +23,40 @@ head {
 
     --nav-background-color: #caf0f8;
     --nav-link-color: #000000;
-    --nav-hover-link-color: #e5e5f9;
+    --nav-hover-link-color: #e7c24f;
     --nav-hover-background-color: #b4b3f4;
 }
+
 footer {
     font-family: Madimi 'Salt';
     text-align: center;
 }
-h2 {
+h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
     font-family: "EB Garamond", serif;
 }
-h3{
-    color: var(--secondary-color);
-    font-family: "Georgia", serif;
-    text-align: center;
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
 }
+p{
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }

@@ -10,7 +10,6 @@ body {
 head {
     font-family: 'Madimi Salt';
     text-align: center;
-    src: url(fonts/MadimiSalt.ttf);
 }
 :root {
     --primary-color: #03045e;
@@ -28,7 +27,7 @@ head {
 }
 
 footer {
-    font-family: Madimi 'Salt';
+    font-family: "Madimi One", serif;
     text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {

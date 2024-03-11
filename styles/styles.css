@@ -20,7 +20,7 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30xp gray;
+    box-shadow: 0 0 30 gray;
     float: right;
 }
 p {
@@ -33,10 +33,10 @@ aside {
     width: 20rem;
     text-align: center;
     position: relative;
-    aside img {
-        width: 200px;
-        height: auto;
-    }
+}
+aside img {
+    width: 200px;
+    height: auto;
 }
 aside h2 {
     position: absolute;

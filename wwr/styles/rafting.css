@@ -16,8 +16,14 @@
 p {
     padding: 25px;
 }
-h1, h2 {
+h2 {
     color: var(--primary-color);
+    font-family: "EB Garamond", serif;
+    padding: 20px;
+}
+h1 {
+    position: absolute;
+    color: var(--accent2-color);
     font-family: "EB Garamond", serif;
 }
 footer {
@@ -46,7 +52,7 @@ nav {
   nav a {
     display: block;
     color: var(--nav-link-color);
-    text-decoration: none;
+    text-decoration-style: solid;
     padding: 1rem;
   }
 nav a:link, nav a:visited {
@@ -55,4 +61,13 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+img {
+    padding: 25px;
 }

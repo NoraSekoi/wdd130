@@ -13,3 +13,46 @@
     --nav-hover-link-color: #e7c24f;
     --nav-hover-background-color: #b4b3f4;
 }
+p {
+    padding: 25px;
+}
+h1, h2 {
+    color: var(--primary-color);
+    font-family: "EB Garamond", serif;
+}
+footer {
+    font-family: "Madimi One", serif;
+    text-align: center;
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+body {
+    font-family: Ubuntu, Georgia, serif;
+    max-width: 960px;
+    padding: 20px;
+    line-height: 1.4;
+}
+head {
+    font-family: 'Madimi Salt';
+    text-align: center;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

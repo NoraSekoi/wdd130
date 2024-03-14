@@ -28,8 +28,8 @@ h1 {
     font-family: "EB Garamond", serif;
     background-color: #00000065;
     text-align: center;
-    width: 63%;
-    right: 510px;
+    width: 97%;
+    left: 52px;
     top: 455px;
 }
 footer {
@@ -43,9 +43,10 @@ header{
 }
 body {
     font-family: Ubuntu, Georgia, serif;
-    max-width: 960px;
+    width: 100vw;
     padding: 20px;
     line-height: 1.4;
+    overflow-x: hidden;
 }
 head {
     font-family: 'Madimi Salt';
@@ -83,17 +84,18 @@ img {
 }
 article {
     position: absolute;
-    right: 600px;
-    top: 600px;
+    right: 200px;
+    top: 800px;
     background-color: rgba(0, 142, 185, 0.5);
-    width: 50%;
-    height: 30%;
+    width: 70%;
+    height: 40%;
     float: right;
     text-align: left;
+    font-size: x-large;
 }
 #happy {
     left: 15px;
-    width: 20%;
-    height: 50%;
+    width: 25%;
+    height: 55%;
     opacity: 100%;
 }

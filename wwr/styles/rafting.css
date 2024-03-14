@@ -15,6 +15,7 @@
 }
 p {
     padding: 25px;
+    opacity: 100%;
 }
 h2 {
     color: var(--primary-color);
@@ -25,6 +26,11 @@ h1 {
     position: absolute;
     color: var(--accent2-color);
     font-family: "EB Garamond", serif;
+    background-color: #00000065;
+    text-align: center;
+    width: 63%;
+    right: 510px;
+    top: 455px;
 }
 footer {
     font-family: "Madimi One", serif;
@@ -33,6 +39,7 @@ footer {
 header{
     padding: 20px;
     background-color: var(--accent1-color);
+    text-align: center;
 }
 body {
     font-family: Ubuntu, Georgia, serif;
@@ -66,8 +73,27 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
     float: right;
+    left: 50px;
 }
 img {
     padding: 25px;
+    opacity: 100%;
+}
+article {
+    position: absolute;
+    right: 600px;
+    top: 600px;
+    background-color: rgba(0, 142, 185, 0.5);
+    width: 50%;
+    height: 30%;
+    float: right;
+    text-align: left;
+}
+#happy {
+    left: 15px;
+    width: 20%;
+    height: 50%;
+    opacity: 100%;
 }

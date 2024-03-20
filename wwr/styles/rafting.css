@@ -22,17 +22,7 @@ h2 {
     font-family: "EB Garamond", serif;
     padding: 20px;
 }
-h4, h6 {
-    color: var(--secondary-color);
-    font-family: "Lato", serif;
-    font-size: large;
-}
-h3 {
-    color: var(--secondary-color);
-    font-family: "Lato", serif;
-    font-size: large;
-}
-h5 {
+figcaption {
     color: var(--secondary-color);
     font-family: "Lato", serif;
     font-size: large;
@@ -55,6 +45,7 @@ header{
     padding: 20px;
     background-color: var(--accent1-color);
     text-align: center;
+
 }
 body {
     font-family: Ubuntu, Georgia, serif;
@@ -96,6 +87,12 @@ nav a:hover {
 img {
     padding: 25px;
     opacity: 100%;
+}
+figure{
+    border: thin var(--nav-hover-link-color) solid;
+    display: flex;
+    padding: 5px;
+    margin: auto;
 }
 article {
     position: absolute;
